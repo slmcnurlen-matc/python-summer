@@ -1,0 +1,5 @@
+commit 8aa3de7ee37b042d2305c7cd90ce1b82cd888780
+Author: Sam McNurlen <slmcnurlen@madisoncollege.edu>
+Date:   Wed Jun 22 14:36:50 2022 -0500
+
+    Initial commit of GitHub exercise
