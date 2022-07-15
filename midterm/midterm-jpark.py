@@ -22,6 +22,7 @@ while white_rabbit_object == 0:
         input_password = input("Password: ")
         if input_user == password_database['Username'] and input_password == password_database['Password']:
             white_rabbit_object = 1
+            counter = 3
             print("Hi, Dennis. You're still the best hacker in Jurassic Park.")
             print(f"Commands: {command_database.keys()}")
             command = input("Enter a command: ")
