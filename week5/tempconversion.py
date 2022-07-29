@@ -8,4 +8,4 @@ import f2c
 
 degrees_fahrenheit = input("Enter the temperature in Fahrenheit: ")
 degrees_celsius = f2c.convert_temp(int(degrees_fahrenheit))
-print(degrees_celsius)
+print(f"The temperature in Celsius is {degrees_celsius}")
