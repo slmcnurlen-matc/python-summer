@@ -69,19 +69,19 @@ try:
     url = f'http://{varIP}/q{varFunction}'
     print("Name: Sam McNurlen")
     print(url)
-    if function == '1':
+    if varFunction == '1':
         answer = get_response(url)
         print(answer)
-    if function == '2':
+    if varFunction == '2':
         answer = parse_string(url)
         print(answer)
-    if function == '3':
+    if varFunction == '3':
         answer = parse_header(url)
         print(answer)
-    if function == '4':
+    if varFunction == '4':
         answer = parse_json(url)
         print(answer)
-    if function == '5':
+    if varFunction == '5':
         answer,port = socket_client(varIP)
         print(f"{answer}\n{port}")
 except Exception as e:
